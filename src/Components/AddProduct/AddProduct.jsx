@@ -31,7 +31,7 @@ let product = productDetails;
 let formData = new FormData();
 formData.append('product',image);
 
-await fetch('https://e-commerce-backend-1-ix83.onrender.com/upload/upload',{
+await fetch('https://e-commerce-backend-1-ix83.onrender.com/upload',{
     method:'POST',
     headers:{
         Accept:'application/json',
